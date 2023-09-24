@@ -1,0 +1,32 @@
+import streamlit as st
+
+# Set custom CSS styles
+custom_css = """
+<style>
+    /* Change the background color of the sidebar */
+    .sidebar {
+        background-color: #B18C75;
+        color: white;
+    }
+
+    /* Change the background color of the main content area */
+    .main {
+        background-color: #FFF2D8;
+    }
+
+    /* Change the font size and color of the title */
+    .css-1vcd91e {
+        font-size: 24px;
+        color: #333;
+    }
+
+    /* Change the font size and color of text in the main content area */
+    .css-1f6dbht {
+        font-size: 16px;
+        color: #333;
+    }
+</style>
+"""
+
+# Apply the custom CSS
+st.markdown(custom_css, unsafe_allow_html=True)

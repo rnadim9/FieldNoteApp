@@ -1,8 +1,4 @@
-import streamlit as st
 
-# Set custom CSS styles
-custom_css = """
-<style>
     /* Change the background color of the sidebar */
     .sidebar {
         background-color: #B18C75;
@@ -25,8 +21,3 @@ custom_css = """
         font-size: 16px;
         color: #333;
     }
-</style>
-"""
-
-# Apply the custom CSS
-st.markdown(custom_css, unsafe_allow_html=True)
